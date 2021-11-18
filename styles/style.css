@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: ("fonts/pt-sans-regular.woff2") format(woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: ("fonts/pt-sans-bold.woff2") format(woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: PT Sans;
+    font-style: italic;
+    font-weight: 400;
+    src: ("pt-sans-italic.woff2") format(woff2);
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: ("fonts/pt-sans-bold-italic.woff2") format(woff2);
+    font-display: swap;
+}
+/* PT Sans Narrow */
+@font-face {
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 700;
+    src: ("fonts/pt-sans-narrow-bold.woff2") format(woff2);
+    font-display: swap;
+}
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    background-color: #ffffff;
+}
+.page-header {
+    color: #000000;
+    background-color: #ffffff;
+}
+.navigation-link {
+    font-family: PT Sans, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffffff;
+}
+.head-vectors {
+    background-image: url(images/index-background.jpg);
+}
